@@ -1,0 +1,4 @@
+pdf2image
+openai
+Pillow
+python-docx
