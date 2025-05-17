@@ -1,4 +1,4 @@
 pdf2image
-google-genai>=0.6.1
+google-generativeai>=0.6.1
 Pillow
 python-docx
