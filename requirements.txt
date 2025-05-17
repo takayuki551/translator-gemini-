@@ -1,4 +1,0 @@
-pdf2image
-google-genai
-Pillow
-python-docx
