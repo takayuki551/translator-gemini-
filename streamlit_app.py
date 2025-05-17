@@ -75,7 +75,7 @@ def ocr_image(image_bytes, client, ocr_prompt):
         types.Part.from_bytes(data=image_bytes, mime_type="image/png")
     ]
     # 簡易リトライ
-    for _ in range(2):
+    for attempt in range(2):
         try:
             res = client.models.generate_content(
                 model="gemini-2.5-pro-preview-05-06",
