@@ -10,6 +10,10 @@ from google.genai import types
 from google.genai.errors import ClientError
 from docx import Document
 
+# デバッグ用モジュール
+import sys
+import traceback
+
 # デバッグ：環境情報
 st.write(f"Python: {sys.version.split()[0]}")
 st.write(f"genai SDK: {genai.__version__}")
